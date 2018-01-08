@@ -15,7 +15,7 @@ for (int k=0;k<n;k++){
 
 for(int k=0;k<n;k++){
 
-  a[k]=rand();
+  a[k]=rand()%50;
 //  cin>>a[k];
 }
 
@@ -29,7 +29,7 @@ for (int i = 0; i < n-1; i++) {
   }
 }
 
-  for(int i=0;i<5;i++){
+  for(int i=0;i<n;i++){
     cout <<a[i]<<" ";
   }
 }
