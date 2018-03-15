@@ -21,6 +21,7 @@ public class NewtonBackwardInterpolation {
 			for (int j = n - 1; j >= i; j--)
 				y[j][i] = y[j][i - 1] - y[j - 1][i - 1];
 		}
+		System.out.println("x"+"\t"+"F(x)");
 		for (int i = 0; i < n; i++) {
 			System.out.print((int)x[i]+ "\t");
 			for (int j = 0; j <= i; j++)
