@@ -48,27 +48,19 @@ public:
 
     int RPS_CPUInput(){
       srand((int)time(0));
-      int input= (rand() % 3) +1;
-    //  std::cout << input << '\n';
-      return input;
+        int ai = rand() % 3 + 1;
+        cout <<  "The computer chose: " << ai << endl;
+        return ai;
     }
 
     void displayMenu(){
-      std::cout << "1. Rock\t"<< "2. Paper\t"<< "3. Scissors\t" << '\n';
+    //  std::cout << "1. Rock\t"<< "2. Paper\t"<< "3. Scissors\t" << '\n';
+        cout << "-- Rock, Paper, Scissors! --" << endl;
+       // cout << "--------------------------------------" << endl;
+        cout << "Press 1 for Rock, 2 for Paper, 3 for Scissors:" << endl;
+        cin >> choice;
+    }
 
-    }
-    void displayAI_Input(int cpuIP) {
-      std::cout << "CPU chose";
-      if (cpuIP==1) {
-      std::cout << " Rock" << '\n';
-      }
-     else if (cpuIP==2) {
-      std::cout << " Paper" << '\n';
-    }
-    else if (cpuIP==3) {
-      std::cout << " Scissors" << '\n';
-      }
-    }
     void displayUser_Input(int userIP) {
       std::cout << "You chose ";
       if (userIP==1) {
