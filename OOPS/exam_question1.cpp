@@ -30,7 +30,8 @@ Polar(){
 };
 
 int main (){
-Polar p1(1,0),p2(1,0);
+    cout<<"Roll number 161210040\n";
+Polar p1(1,0),p2(1,90);
 Polar p3= p1+p2;
 p3.print(p3);
 }
