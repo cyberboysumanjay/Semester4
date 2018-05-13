@@ -8,7 +8,7 @@ void truncate(float a[],int n){
 
 int main(){
 float k,a[50],n;
-cout<<"Roll no. 161210040\n";
+cout<<"Roll no. 161210014\n";
 cout<<"Enter the no. of digits in your number:";
 cin>>k;
 cout<<"Enter the array of numbers:";

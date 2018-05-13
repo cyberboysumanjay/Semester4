@@ -25,7 +25,7 @@ void roundoffint(int a[],int n){
 int main(){
   double num;
   int a[50];
-  cout<<"161210040"<<"\n";
+  cout<<"161210014"<<"\n";
   cout<<"Your number is a:\n"<<"1.Integer\n"<<"2.Decimal\n";
   cout<<"Enter your choice:";
   cin>>k;

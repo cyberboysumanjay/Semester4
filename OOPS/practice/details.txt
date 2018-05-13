@@ -1,0 +1,9 @@
+hello this is a line
+and a new line
+and another new line
+just for testing
+that words on new line are also counted.
+Now this is enough for testing.
+if this works fine
+then my code should be correct
+i guess!
